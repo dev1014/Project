@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun Corner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fun Corner!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#jokes">Jokes</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#contact">Contact Dev</a></li>
+        </ul>
+    </nav>
+    <section id="games">
+        <h2>Play Some Games</h2>
+        <p>Enjoy handpicked collection of fun and exciting games!</p>
+        <div class="games">
+            <div class="game-card">
+                <h3><a href="https://www.sporcle.com/games/">Trivia Challenge</a></h3>
+                <img src="https://images.unsplash.com/photo-1598454447877-3e56ebcb4763?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=150&q=80&w=250" alt="Trivia Game">
+                <p>Test your knowledge with endless trivia questions.</p>
+            </div>
+            <div class="game-card">
+                <h3><a href="https://www.miniclip.com/games/en/">Arcade Fun</a></h3>
+                <img src="https://images.unsplash.com/photo-1585392389394-415c3bb0bbcc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=150&q=80&w=250" alt="Arcade Game">
+                <p>Classic arcade games to bring out the kid in you.</p>
+            </div>
+            <div class="game-card">
+                <h3><a href="https://www.chess.com/play/computer">Chess Master</a></h3>
+                <img src="https://images.unsplash.com/photo-1519265431997-25c02a9967d4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=150&q=80&w=250" alt="Chess Game">
+                <p>Challenge yourself against the computer in chess.</p>
+            </div>
+        </div>
+    </section>
+    <section id="jokes">
+        <h2>Laugh Out Loud</h2>
+        <p>Why did the web developer leave the restaurant? Because of the table layout!</p>
+        <p>How many programmers does it take to change a light bulb? None, that's a hardware problem!</p>
+        <p>Why do Java developers wear glasses? Because they don't see sharp!</p>
+        <p>Have a joke to share? Let Dev know!</p>
+    </section>
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&q=80&w=200" alt="Fun Image 1">
+            <img src="https://images.unsplash.com/photo-1517620422050-4ac33f663d6e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&q=80&w=200" alt="Fun Image 2">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&q=80&w=200" alt="Fun Image 3">
+            <img src="https://images.unsplash.com/photo-1534438327276-c2b6b5c1a790?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&q=80&w=200" alt="Fun Image 4">
+        </div>
+    </section>
+    <section id="quiz">
+        <h2>Fun Quiz</h2>
+        <p>Take this fun quiz to find out which programming language matches your personality!</p>
+        <button onclick="alert('You are JavaScript: versatile and always evolving!')">Start Quiz</button>
+    </section>
+    <section id="contact">
+        <h2>Get in Touch with Dev</h2>
+        <p>Email: <a href="mailto:devnarang083@gmail.com">devnarang083@gmail.com</a></p>
+        <p>Phone: <a href="tel:3017920099">301-792-0099</a></p>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="user_name">
+            <label for="mail">Your Email:</label>
+            <input type="email" id="mail" name="user_mail">
+            <label for="msg">Your Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fun Corner</p>
+    </footer>
+</body>
+</html>
